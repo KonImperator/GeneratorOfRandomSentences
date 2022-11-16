@@ -3,6 +3,7 @@ A program that generates random sentences for fun that may not make too much sen
 
 Screenshot of how it works ![image](https://user-images.githubusercontent.com/103381077/202317778-8a80ae2d-d739-462c-b9f9-71401dca5656.png)
 
+
 Live demo - https://replit.com/@KonImperator/GeneratorOfRandomSentences#rng.js - Just type node rng.js in shell to run and press Enter to generate a new sentence
 
 Done with several arrays holding different types of word/phrases:
