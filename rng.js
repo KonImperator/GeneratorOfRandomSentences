@@ -70,10 +70,12 @@ let details = [
   "late at night",
   "every morning",
 ];
+// filling all arrays with information later to be used in each sentence
 
 const chooseTheWord = function (wordArray) {
   return wordArray[Math.floor(Math.random() * wordArray.length)];
 };
+// function to get a random element of an array 
 
 const printTheSentence = function () {
   let name = chooseTheWord(names);
@@ -86,6 +88,8 @@ const printTheSentence = function () {
   let sentence = `${name} from ${place} ${adverb} ${verb} ${noun} ${detail}.`;
   console.log(sentence);
 };
+// function to create 1 phrase with the chooseTheWord function from each of the arrays and then interpolate everything into a string 
+
 
 let recursivePrintSentence = function () {
   rl.question("Press [ENTER] to generate a new sentence!", function () {
@@ -95,3 +99,4 @@ let recursivePrintSentence = function () {
   });
 };
 recursivePrintSentence();
+// recursively asking the user to press enter and print a random sentence
